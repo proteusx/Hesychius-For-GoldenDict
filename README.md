@@ -46,7 +46,7 @@ Hesychius Lexicon as encoded in the TLG CDROM is sourced from this hard copy edi
 *Hesychii Alexandrini lexicon,  Latte, K. (Ed), Copenhagen: Munksgaard, 1953*.
 
 The original proem of the lexicon (also taken from the TLG) is included in the dictionary annotations file
-`dictionar/hesychius.ann`.  There, Hesychius gives an account of his sources and gives instructions for the use of the lexicon. It is very interesting reading and you can either read it with a text editor, or read
+`dictionary/hesychius.ann`.  There, Hesychius gives an account of his sources and gives instructions for the use of the lexicon. It is very interesting reading and you can either read it with a text editor, or read
 it after installation from the **Dictionary information** of GoldenDict.
 
 The source text of the lexicon is an old 15th century manuscript which has a few defects. This means that there are some lemmata with missing headwords and other corruptions.  These are not of any use in a searchable digital dictionary and have been deleted.  The few deletions and amendments are shown in the file `h.patch`.
