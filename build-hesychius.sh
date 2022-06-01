@@ -14,10 +14,10 @@ done
 
 cat h2 h3 > temp                   # Concatenate volumes
 sed -i 's/\ *$//' temp             # Remove trailling spaces
-patch temp h.patch &> /dev/null    # Patch manual edits
 ./hes.pl temp > ./hes-body         # Make dictionary
 
 # The header includes the UTF-8 BOM
 # Without BOM GoldenDict will not see the dictionary
 cat ./hes-header ./hes-body > ./dictionary/hesychius.dsl
 rm h2 h3 hes-body temp             # Clean-up
+patch ./dictionary/hesychius.dsl h.patch &> /dev/null    # Patch manual edits
